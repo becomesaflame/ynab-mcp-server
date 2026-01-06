@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "ynab": {
+      "type": "stdio",
+      "command": "/home/spark/ynab-mcp-server/.venv/bin/ynab-mcp-server",
+      "args": [],
+      "env": {
+        "YNAB_API_TOKEN": "REPLACE_WITH_YOUR_API_KEY"
+      }
+    }
+  }
+}
